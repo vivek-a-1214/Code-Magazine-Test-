@@ -55,6 +55,7 @@ body {
 
 .product-descriptions {
     margin-bottom: 10px;
+    clear: both;
 }
 
 .product-info:link,
@@ -107,7 +108,7 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    margin-top: 30px;
+   
 }
 
 .product-list {
@@ -134,4 +135,32 @@ body {
 .btn-cart:hover {
     color: #000;
     background-color: #fff;
+}
+
+.product-img {
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.price {
+    float: left;
+}
+
+.shipping {
+    float: right;
+    margin-top: 8px;
+}
+
+.product-info {
+    float: left;
+    width: 243px;
+    margin-right: 40px;
+    margin-top:20px ;
+}
+
+.details {
+    float: left;
+    width: 243px;
+    margin-top: 20px;
 }
