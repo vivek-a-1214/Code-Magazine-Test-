@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.container {
+    border: 4px solid #000;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.product-title {
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-size: 24px;
+}
+
+.product-shipping {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.sale {
+    background-color: #ec2f2f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 7px 15px;
+    display: inline-block;
+    /* width: 40px;
+    text-align: center; */
+    letter-spacing: 2px;
+    position: absolute;
+    top: -14px;
+    left: -30px;
+}
+
+.product-descriptions {
+    margin-bottom: 10px;
+}
+
+.product-info:link,
+.product-info:visited {
+    color: #000;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.product-info:hover,
+.product-info:active {
+    text-decoration: none;
+
+}
+
+/* .colors {
+    background-color: #f7f7f7;
+    display: inline-block;
+} */
+
+.color {
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.color-blue {
+    background-color: blue;
+}
+
+.color-red {
+    background-color: #ec2f2f;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.color-brown {
+    background-color: brown;
+}
+
+.product-details {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.product-list {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.product-list li {
+    margin-bottom: 10px;
+}
+
+.btn-cart {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-top: 4px solid #000;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    color: #000;
+    background-color: #fff;
+}
